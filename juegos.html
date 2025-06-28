@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUEGOS JS</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="main-header">
+      <a href="index.html" class="logo">CURSO FRONTEND</a>
+      <nav class="nav" id="nav">
+        <a href="pildoras.html">PILDORAS</a>
+        <a href="clases.html">CLASES</a>
+        <a href="equipo.html">EQUIPO</a>
+          <button id="toggle-mode">🌙</button>
+        </nav>
+        <div class="hamburger" id="hamburger">☰</div>
+    </header>
+    <div class="nombre">
+        <span class="letra">J</span>
+        <span class="letra">U</span>
+        <span class="letra">E</span>
+        <span class="letra">G</span>
+        <span class="letra">O</span>
+   
+    <br>
+
+        <span class="letra">J</span>
+        <span class="letra">S</span>
+    </div>
+     <!-- Juego 1 -->
+  <div class="bloque">
+    <h2>Adivina el número secreto</h2>
+    <p id="temporizador">Tiempo restante: 60 segundos</p>
+    <input type="number" id="adivinaInput" placeholder="Número del 1 al 100" />
+    <button onclick="adivinar()">Adivinar!</button>
+    <p id="resultado"></p>
+    <button class="boton2" id="resetBoton" style="display:none;" onclick="reiniciar()">Reiniciar</button>
+  </div>
+
+  <!-- Explicación Juego 1 -->
+  <div class="explicacion_juego">
+    <h2>¿Cómo funciona "Adivina el número secreto"?</h2>
+    <p>El juego genera un número aleatorio entre 1 y 100. Tienes 60 segundos para adivinarlo introduciendo números. El juego te indica si el número secreto es mayor o menor que tu intento.</p>
+    <p>Cuando adivinas o se acaba el tiempo, puedes reiniciar para jugar otra vez. ¡A ver cuántos intentos necesitas!</p>
+  </div>
+
+  <!-- Juego 2 -->
+  <div class="juego2">
+    <button id="escapista">Haz clic si puedes 😈</button>
+  </div>
+
+  <!-- Explicación Juego 2 -->
+  <div class="explicacion_juego">
+    <h2>¿Cómo funciona el botón escapista?</h2>
+    <p>Este botón "escapa" de tu cursor cada vez que intentas acercarte. Cuando pasas el mouse sobre él, se mueve a una posición aleatoria en la pantalla para que sea difícil clicarlo.</p>
+    <p>El movimiento es suave gracias a la transición CSS, y es un divertido reto para tu agilidad y paciencia.</p>
+  </div>
+    <footer class="footer">
+        <p>Creado con 💻 y 💖 por Ana</p>
+
+        <div class="social-icons">
+            <a href="https://github.com/AnaAguilera88" target="_blank" aria-label="github">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.figma.com/@anaaguilera/metrics" target="_blank" aria-label="figma">
+                <i class="fa-brands fa-figma"></i>
+            </a>
+        </div>
+        <div class="copy" >
+            </div>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>

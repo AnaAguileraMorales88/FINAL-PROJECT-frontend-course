@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="main-header">
+        <a href="index.html" class="logo">CURSO FRONTEND</a>
+        <nav class="nav" id="nav">
+          <a href="pildoras.html">PILDORAS</a>
+          <a href="clases.html">CLASES</a>
+          <a href="equipo.html">EQUIPO</a>
+          <button id="toggle-mode">🌙</button>
+        </nav>
+        <div class="hamburger" id="hamburger">☰</div>
+    </header>
+    <h1 class="videoh1">Galería de Videos</h1>
+    <div class="contenedor_video">
+        <div class="caja_video">
+            <iframe src="https://www.youtube.com/embed/9ZJ-K-zk_Go?si=PRCqdDGuRWeLkgkv" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="caja_video">
+            <iframe src="https://www.youtube.com/embed/8g-EIbPJmGA?si=Mgf4ol-pBWHmjgQr" title="YouTube video player"allowfullscreen></iframe>
+        </div>
+        <div class="caja_video">
+            <iframe src="https://www.youtube.com/embed/5EXAugHfhuk?si=IifJmBF3q_Nq17v6" 
+                title="YouTube video player" allowfullscreen></iframe>
+        </div>
+        <div class="caja_video">
+            <iframe src="https://www.youtube.com/embed/VdGzPZ31ts8?si=ara7UfLXbJxyiYtM" 
+                title="YouTube video player" allowfullscreen></iframe>
+        </div>
+        <div class="caja_video">
+            <iframe src="//www.youtube.com/embed/mBYSUUnMt9M?si=kDXUvQKwnGlK_PZx" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <div class="caja_video">
+           <iframe src="https://www.youtube.com/embed/3GymExBkKjE?si=GIQTper9uArV1Jxp" title="YouTube video player" allowfullscreen></iframe>
+</div>
+    </div>
+    <div class="explicacion_video">
+        <h3 class="videoh3">Explicación</h3>
+        <p>
+            Los videos están dentro de cajas con bordes redondeados y sombra para que se vean bonitos.
+            Usamos <code>flexbox</code> para que las cajas se distribuyan en filas y bajen a la siguiente línea
+            si no caben en una sola, además dejamos un espacio de 35px entre ellas.
+        </p>
+        <p>
+            Cada video es un iframe de YouTube con un formato 16:9 que se ajusta automáticamente al tamaño de su contenedor.
+            También agregamos un efecto cuando pasás el mouse por encima para que el video aumente un poquito y la sombra cambie.
+        </p>
+        <p>
+            El contenedor tiene un ancho máximo de 1000px para que no sea muy grande en pantallas amplias,
+            y cada video no pasa de 320px de ancho para que no queden gigantes.
+        </p>
+    </div>
+
+    <footer class="footer">
+        <p>Creado con 💻 y 💖 por Ana</p>
+
+        <div class="social-icons">
+            <a href="https://github.com/AnaAguilera88" target="_blank" aria-label="github">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.figma.com/@anaaguilera/metrics" target="_blank" aria-label="figma">
+                <i class="fa-brands fa-figma"></i>
+            </a>
+        </div>
+        <div class="copy" >
+            </div>
+      </footer>
+      <script src="script.js"></script>
+    
+</body>
+</html>

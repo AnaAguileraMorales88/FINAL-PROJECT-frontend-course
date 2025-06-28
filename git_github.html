@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT & GITHUB </title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="main-header">
+      <a href="index.html" class="logo">CURSO FRONTEND</a>
+      <nav class="nav" id="nav">
+        <a href="pildoras.html">PILDORAS</a>
+        <a href="clases.html">CLASES</a>
+        <a href="equipo.html">EQUIPO</a>
+          <button id="toggle-mode">🌙</button>
+        </nav>
+        <div class="hamburger" id="hamburger">☰</div>
+    </header>
+    <section class="git-section">
+        <h2>GIT & GITHUB</h2>
+        <div class="bloque-tema bloque-git">
+            <h3 class="titulo-bloque">GIT</h3>
+            <div class="temario">
+              <div class="bloque">
+                <h4>¿Qué es Git?</h4>
+                <p>Git es un sistema de control de versiones que permite rastrear los cambios en el
+                  código, trabajar en equipo y revertir errores.</p>
+              </div>
+              <div class="bloque">
+                <h4>¿Por qué usar Git?</h4>
+                <ul>
+                  <li>Mantener un historial de versiones del proyecto.</li>
+                  <li>Trabajar en equipo sin conflictos.</li>
+                  <li>Probar nuevas ideas sin afectar la versión estable.</li>
+                </ul>
+              </div>
+              <div class="bloque">
+                <h4>Conceptos básicos de Git</h4>
+                <ul>
+                  <li>Repositorio: Es un "contenedor" de tu proyecto, que incluye todos los archivos y el
+                    historial de cambios.</li>
+                  <li>Commit: Un "punto de control" en el historial del proyecto.</li>
+                  <li>Branch (rama): Una línea de desarrollo paralela.</li>
+                  <li>Merge: Combinar ramas.</li>
+                  <li>Staging area: Espacio intermedio antes de confirmar los cambios.</li>
+                </ul>
+              </div>
+              <div class="bloque">
+                <h4>Flujo básico de Git</h4>
+                <p><strong>Clonar o inicializar un repositorio:</strong>
+                  ● Clonar: git clone <URL-del-repositorio>
+                    <br>
+                  ● Inicializar: git init<br>
+                  <strong>Agregar cambios:</strong><br>
+                  bash<br>
+                  Copiar código<br>
+                  git add <archivo> #Añade un archivo específico.<br>
+                  git add . #Añade todos los cambios.
+                 <strong> Confirmar los cambios:</strong><br>
+                  bash<br>
+                  Copiar código<br>
+                  git commit -m "Mensaje descriptivo"<br>
+                 <strong> Subir al repositorio remoto (GitHub):</strong>
+                  bash<br>
+                  Copiar código<br>
+                  git push origin main</p>
+            
+              </div>
+              <div class="bloque">
+                <h4>Flujo de trabajo colaborativo</h4>
+                <p>1. Crear una rama:
+                    <br>
+                  bash<br>
+                  Copiar código<br>
+                  git checkout -b nombre-de-la-rama<br>
+                  2. Trabajar y confirmar los cambios.
+                <br>
+                3.Hacer un merge:
+                <br>
+                <ul>
+                  <li>Cambiar a la rama principal: git checkout main.</li>
+                <li> Combinar: git merge nombre-de-la-rama.</li>
+              </ul> 
+            </p>   
+              </div>
+            </div>
+          </div>
+        
+          <!-- BLOQUE GITHUB -->
+          <div class="bloque-tema bloque-github">
+            <h3 class="titulo-bloque">GITHUB</h3>
+            <div class="temario">
+              <div class="bloque">
+                <h4>¿Qué es GitHub?</h4>
+                <p>Una plataforma basada en la nube para almacenar, compartir y colaborar en proyectos Git.</p>
+              </div>
+              <div class="bloque">
+                <h4>¿Por qué usar GitHub?</h4>
+                <p>En GitHub puedes crear repositorios, que son como carpetas donde se guarda todo el código de un proyecto. Además, facilita trabajar en equipo porque permite que varias personas editen, comenten y revisen el código de forma organizada.<br>Es súper útil para controlar versiones, colaborar en proyectos y mostrar tu trabajo a otros, por ejemplo para un portafolio profesional.</p>
+              </div>
+            </div>
+          </div>
+        
+          <!-- VIDEO FINAL -->
+          <div class="video-git">
+            <iframe src="https://www.youtube.com/embed/9ZJ-K-zk_Go?si=PRCqdDGuRWeLkgkv" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/3GymExBkKjE?si=GIQTper9uArV1Jxp" title="YouTube video player" allowfullscreen></iframe>
+          </div>
+      </section>
+    <footer class="footer">
+        <p>Creado con 💻 y 💖 por Ana</p>
+
+        <div class="social-icons">
+            <a href="https://github.com/AnaAguilera88" target="_blank" aria-label="github">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.figma.com/@anaaguilera/metrics" target="_blank" aria-label="figma">
+                <i class="fa-brands fa-figma"></i>
+            </a>
+        </div>
+        <div class="copy" >
+            </div>
+      </footer>
+      <script src="script.js"></script>
+
+    
+</body>
+</html>

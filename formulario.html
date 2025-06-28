@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="main-header">
+        <a href="index.html" class="logo">CURSO FRONTEND</a>
+        <nav class="nav" id="nav">
+          <a href="pildoras.html">PILDORAS</a>
+          <a href="clases.html">CLASES</a>
+          <a href="equipo.html">EQUIPO</a>
+          <button id="toggle-mode">🌙</button>
+        </nav>
+        <div class="hamburger" id="hamburger">☰</div>
+    </header>
+    <section class="ejercicio">
+        <div class="form_contenedor">
+            <h2 class="formularioh2">Iniciar sesión</h2>
+            <form action="/login" method="post">
+                <div class="input_grupo">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                    <div class="input_grupo">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+    </div>
+    <div class="explicacion">
+        <h3 class="animacionh3">Explicación</h3>
+        <p>Aprendimos a construir formularios accesibles con etiquetas como <code>&lt;form&gt;</code> elemento contenedor que agrupa todos los campos de entrada(<code>&lt;label&gt;</code> e <code>&lt;input&gt;</code>,etc). Es el mecanismo mediante el cual los datos se envía a un servidor.
+        En la parte de CSS vimos box-sizing: border-box: Hace que el padding y el borde se
+        incluyan dentro del ancho y alto del elemento, facilitando el diseño.</p>
+    </div>
+    </section>
+    <footer class="footer">
+        <p>Creado con 💻 y 💖 por Ana</p>
+
+        <div class="social-icons">
+            <a href="https://github.com/AnaAguilera88" target="_blank" aria-label="github">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.figma.com/@anaaguilera/metrics" target="_blank" aria-label="figma">
+                <i class="fa-brands fa-figma"></i>
+            </a>
+        </div>
+        <div class="copy" >
+            </div>
+      </footer>
+      <script src="script.js"></script>
+    
+</body>
+</html>
