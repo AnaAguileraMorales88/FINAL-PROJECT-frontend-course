@@ -1,4 +1,4 @@
-#  Proyecto Final – Curso de FRONTEND
+# 🎓 Proyecto Final – Curso de FRONTEND
 
 Este proyecto es el resultado final del curso de Fronted que realicé. Aquí reuní todos los conocimientos aprendidos a lo largo de las clases: estilos, diseño responsive, buenas prácticas, y más.  
 Incluye los ejercicios que hicimos durante el curso y el material teórico en formato PDF.
