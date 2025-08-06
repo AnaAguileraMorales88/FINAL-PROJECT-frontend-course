@@ -22,9 +22,24 @@ El proyecto incluye:
 - Tipografías, colores y variables CSS
 - Formularios accesibles
 - Uso de imágenes y enlaces
-  
 
-## Imágenes de la
+
+##  ¿Cómo usarlo?
+
+1. Clona el repositorio:
+git clone git@github.com:AnaAguileraMorales88/FINAL-PROJECT-frontend-course.git
+
+2. Abre `index.html` en tu navegador.
+No necesita instalación adicional.
+   
+
+1. Clona el repositorio:
+## Vista previa
   <img width="1087" height="769" alt="Captura de pantalla 2025-08-06 a las 15 40 36" src="https://github.com/user-attachments/assets/a46dd3ba-a815-4584-abae-71c76e412cc3" />
+
+  ##  Autora
+
+**Ana Aguilera Morales**  
+📧 anitaaguileram@gmail.com
 
 
